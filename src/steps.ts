@@ -72,7 +72,6 @@ export const steps: Step[] = [
     mode: "Uber 🚗",
     items: [
       "Von der Surfschule mit dem Uber zum Cristo Rei.",
-      "Picknick mit Blick über die Brücke und Lissabon (Martin bringt alles mit).",
     ],
     maps: "https://www.google.com/maps/search/?api=1&query=Cristo+Rei+Almada",
   },
