@@ -3,6 +3,7 @@ export type Step = {
   dist: string; // short heading, e.g. "~180 m · 2 Min"
   mode: string; // "zu Fuß" | "Uber" | …
   items: string[]; // einzelne Wegbeschreibungs-Schritte
+  maps: string; // Google Maps Ziel
 };
 
 export const steps: Step[] = [
@@ -13,6 +14,7 @@ export const steps: Step[] = [
       "Auf der Rua da Sociedade Farmacêutica bleiben, Richtung höhere Hausnummern.",
       "Manifest liegt nach ~180 m auf derselben Straßenseite bei Nr. 31.",
     ],
+    maps: "https://www.google.com/maps/search/?api=1&query=Manifest+Lisbon",
   },
   {
     dist: "~850 m · ~12 Min · bergauf",
@@ -23,6 +25,7 @@ export const steps: Step[] = [
       "Entlang der oberen Parkkante (Rua Marquês de Fronteira) nach Westen — es geht spürbar bergauf.",
       "Bis du an der Aussichtsterrasse oben am Park stehst. Klassischer Blick die Parkachse hinunter bis zum Tejo.",
     ],
+    maps: "https://www.google.com/maps/search/?api=1&query=Miradouro+Parque+Eduardo+VII",
   },
   {
     dist: "~200 m · ~3 Min",
@@ -31,6 +34,7 @@ export const steps: Step[] = [
       "Die Estufa Fria liegt direkt unterhalb und etwas westlich der Aussichtsterrasse, an der NW-Ecke des Parks.",
       "Von der Terrasse den Weg nach unten/links zum Eingang des Gewächshauses nehmen.",
     ],
+    maps: "https://www.google.com/maps/search/?api=1&query=Estufa+Fria+Lisboa",
   },
   {
     dist: "~1,9 km · ~25 Min · bergab",
@@ -41,6 +45,7 @@ export const steps: Step[] = [
       "Den Kreisel umrunden und auf den Beginn der Avenida da Liberdade wechseln.",
       "Immer geradeaus die baumgesäumte Avenida da Liberdade hinunter (Süden) bis zur Praça dos Restauradores.",
     ],
+    maps: "https://www.google.com/maps/search/?api=1&query=Pra%C3%A7a+dos+Restauradores+Lisboa",
   },
   {
     dist: "~1,0 km · ~14 Min",
@@ -51,6 +56,7 @@ export const steps: Step[] = [
       "Ins Schachbrett-Raster der Baixa eintreten: die Rua Augusta (Fußgängerzone, unter dem Arco da Rua Augusta hindurch).",
       "Schnurgerade nach Süden bis zur Praça do Comércio am Fluss.",
     ],
+    maps: "https://www.google.com/maps/search/?api=1&query=Pra%C3%A7a+do+Com%C3%A9rcio+Lisboa",
   },
   {
     dist: "~18 km · Uber",
@@ -59,6 +65,7 @@ export const steps: Step[] = [
       "Bestell einen Uber über die Ponte 25 de Abril nach Costa da Caparica.",
       "Lass dich überraschen, wo es hingeht. 😉",
     ],
+    maps: "https://www.google.com/maps/search/?api=1&query=Costa+da+Caparica",
   },
   {
     dist: "~12 km · ~20 Min",
@@ -67,6 +74,7 @@ export const steps: Step[] = [
       "Von der Surfschule mit dem Uber zum Cristo Rei.",
       "Picknick mit Blick über die Brücke und Lissabon (Martin bringt alles mit).",
     ],
+    maps: "https://www.google.com/maps/search/?api=1&query=Cristo+Rei+Almada",
   },
   {
     dist: "~1,2 km · ~15 Min · bergab",
@@ -75,6 +83,7 @@ export const steps: Step[] = [
       "Vom Cristo Rei bergab entlang der Av. do Cristo Rei zum Flussufer beim Jardim do Rio (oder 5-Min-Uber).",
       "Schöner Sonnenuntergangs-Spot.",
     ],
+    maps: "https://www.google.com/maps/search/?api=1&query=Jardim+do+Rio+Almada",
   },
   {
     dist: "Fähre oder Uber",
@@ -84,5 +93,6 @@ export const steps: Step[] = [
       "Option A: Fähre ab Cacilhas (~10 Min Fußweg) nach Cais do Sodré, dann Metro/Uber — schön, umgeht Brückenverkehr.",
       "Option B: Uber über die Brücke, ~25–30 Min.",
     ],
+    maps: "https://www.google.com/maps/search/?api=1&query=Rua+da+Sociedade+Farmac%C3%AAutica+12A+Lisboa",
   },
 ];

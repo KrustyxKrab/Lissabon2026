@@ -36,6 +36,9 @@ export default function App() {
             </li>
           ))}
         </ol>
+        <a className="maps" href={step.maps} target="_blank" rel="noreferrer">
+          In Google Maps öffnen ↗
+        </a>
       </div>
 
       <button className="arrived" onClick={() => setI(i + 1)}>

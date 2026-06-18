@@ -113,6 +113,18 @@ body {
 }
 .arrived:active { transform: scale(0.97); }
 
+.maps {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text);
+  text-decoration: none;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+}
+
 .finish h1 { font-size: 26px; margin-bottom: 12px; }
 .finish p { text-align: center; color: var(--muted); }
 
